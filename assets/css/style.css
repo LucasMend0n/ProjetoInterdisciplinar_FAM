@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #17233A ;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.cabecalho{
+    align-items: center;
+    background: #50DEF1;
+    display: flex;
+    justify-self: center;
+    padding: 0 2em;
+}
+
+.menu__lista{
+ display: flex;
+}
+
+.menu__item{
+    margin: 0 0 0 15px ;
+}
+
+.menu__link{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    
+}
+
+.menu__link:hover{
+    color: #4871DB;
+    transition: 200ms;
+}
+
+.Principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.container__caixa{
+    margin: 0 25em;
+    background: #ffffff;
+    padding: 1em;
+}
+
+.container__titulo{
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #50DEF1;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.container__botao{
+    background-color: #50DEF1 ;
+    padding: 1em;
+    color: white;
+    width: 100%;
+}
+
+.container__botao:hover{
+    background-color: #4871DB;
+    transition: 200ms;
+}
+
+.container__imagem{
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+
+
